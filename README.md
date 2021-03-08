@@ -10,7 +10,7 @@ PHP library to create a response json pattern to API's
 
 ### Installation
 
-Requires [PHP](https://php.net) 7.1.
+Requires [PHP](https://php.net) 7.1
 
 The recommended way to install is through [Composer](https://getcomposer.org/).
 
