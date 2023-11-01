@@ -1,11 +1,11 @@
 {
     "name": "not-empty/response-json-php-lib",
     "description": "PHP library to create a response json pattern to API's",
-    "version": "2.0.0",
+    "version": "3.0.0",
     "type": "library",
     "license": "GPL-3.0-only",
     "require": {
-        "php": "^7.2",
+        "php": "^7.3",
         "pdepend/pdepend": "^2.15"
     },
     "require-dev": {

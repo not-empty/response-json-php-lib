@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1d2d342cece1aa6a8072b8bfd462c142",
+    "content-hash": "8a5f0dd895c68a3afb0d36146f7661f2",
     "packages": [
         {
             "name": "pdepend/pdepend",
@@ -3031,7 +3031,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.2"
+        "php": "^7.3"
     },
     "platform-dev": [],
     "plugin-api-version": "2.6.0"
