@@ -2,7 +2,7 @@
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-PHP library using LUA script to send for redis a job for Taurus queue
+PHP library to create a response json pattern to API's
 
 ### Installation
 
