@@ -39,7 +39,6 @@ $response = $responseJson->response(
     $data,
     'message'
 );
-
 var_dump($response);
 ```
 
