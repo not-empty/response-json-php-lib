@@ -62,9 +62,9 @@ Verify if all dependencies is installed
 composer install --no-dev --prefer-dist
 ```
 
-and run (you will need redis)
+and run
 ```sh
-php sample/publisher-sample.php
+php sample/response-json-sample.php
 ```
 
 ### Development
