@@ -16,7 +16,7 @@ composer require not-empty/response-json-php-lib
 
 ### Usage
 
-Publishing
+Creating a response
 
 ```php
 use ResponseJson\ResponseJson;
