@@ -1,4 +1,4 @@
-# PHP Taurus Queue Publisher
+# PHP Response Json
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
