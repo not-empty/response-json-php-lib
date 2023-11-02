@@ -1,4 +1,4 @@
-# PHP Taurus Queue Publisher
+# PHP Response Json
 
 [![Latest Version](https://img.shields.io/github/v/release/not-empty/response-json-php-lib.svg?style=flat-square)](https://github.com/not-empty/response-json-php-lib/releases)
 [![codecov](https://codecov.io/gh/not-empty/response-json-php-lib/graph/badge.svg?token=AEMV163UW6)](https://codecov.io/gh/not-empty/response-json-php-lib)
