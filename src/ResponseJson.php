@@ -24,9 +24,9 @@ class ResponseJson
         $profiler = $this->getProfiler($start);
 
         $response = [
-            'data' => $data,
+            'response' => $data,
             'profiler' => $profiler,
-            'token' => $token,
+            'jwt' => $token,
             'requestId' => $requestId,
         ];
 
@@ -44,7 +44,7 @@ class ResponseJson
     public function responseDelete(): array
     {
         $response = [
-            'data' => [],
+            'response' => [],
         ];
         return $response;
     }
