@@ -37,9 +37,9 @@ class ResponseJsonTest extends TestCase
         );
 
         $response = [
-            'data' => [],
+            'response' => [],
             'profiler' => $finish,
-            'token' => $token,
+            'jwt' => $token,
             'requestId' => 'requestid',
             'message' => 'An unexpected error occurred, please try again later',
         ];
@@ -81,11 +81,11 @@ class ResponseJsonTest extends TestCase
         );
 
         $response = [
-            'data' => [
+            'response' => [
                 'id' => 1,
             ],
             'profiler' => $finish,
-            'token' => $token,
+            'jwt' => $token,
             'requestId' => 'requestid',
         ];
 
@@ -100,7 +100,7 @@ class ResponseJsonTest extends TestCase
         $responseJson = new ResponseJson;
         $helper = $responseJson->responseDelete();
 
-        $this->assertEmpty($helper['data']);
+        $this->assertEmpty($helper['response']);
     }
 
     /**
