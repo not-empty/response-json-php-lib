@@ -9,7 +9,7 @@ class ResponseJson
      *
      * @param string $requestId
      * @param float $start
-     * @param string $token
+     * @param array|null $token
      * @param array $data
      * @param string $message
      * @return array

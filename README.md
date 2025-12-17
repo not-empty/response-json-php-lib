@@ -12,6 +12,8 @@ PHP library to create a response json pattern to API's
 
 ### Installation
 
+[Release 8.0.0](https://github.com/not-empty/response-json-php-lib/releases/tag/8.0.0) Requires [PHP](https://php.net) 8.4
+
 [Release 7.0.0](https://github.com/not-empty/response-json-php-lib/releases/tag/7.0.0) Requires [PHP](https://php.net) 8.3
 
 [Release 6.0.0](https://github.com/not-empty/response-json-php-lib/releases/tag/6.0.0) Requires [PHP](https://php.net) 8.2
