@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" backupGlobals="false" backupStaticAttributes="false" bootstrap="vendor/autoload.php" colors="true" convertErrorsToExceptions="true" convertNoticesToExceptions="true" convertWarningsToExceptions="true" processIsolation="false" stopOnFailure="false" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.6/phpunit.xsd">
-  <coverage processUncoveredFiles="true">
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         backupGlobals="false"
+         bootstrap="vendor/autoload.php"
+         colors="true"
+         processIsolation="false"
+         stopOnFailure="false"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/12.0/phpunit.xsd">
+  <source>
     <include>
-      <directory suffix=".php">./src</directory>
+        <directory suffix=".php">src</directory>
     </include>
+  </source>
+
+  <coverage>
     <report>
-      <clover outputFile="coverage/coverage.xml"/>
-      <html outputDirectory="coverage/" lowUpperBound="35" highLowerBound="70"/>
-      <text outputFile="php://stdout"/>
+        <html outputDirectory="coverage/" lowUpperBound="35" highLowerBound="70"/>
+        <text outputFile="php://stdout" showUncoveredFiles="false"/>
+        <clover outputFile="coverage/coverage.xml"/>
     </report>
   </coverage>
+
   <testsuites>
     <testsuite name="Application Test Suite">
       <directory suffix="Test.php">./tests</directory>
@@ -17,9 +27,9 @@
   </testsuites>
   <php>
     <env name="APP_ENV" value="testing"/>
+    <ini name="xdebug.mode" value="coverage"/>
   </php>
   <logging>
-    <testdoxText outputFile="php://stdout"/>
     <junit outputFile="coverage/logfile.xml"/>
   </logging>
 </phpunit>
