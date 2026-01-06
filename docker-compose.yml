@@ -1,0 +1,9 @@
+services:
+  response-json-php-lib:
+    build:
+      context: ./
+      dockerfile: ./contrib/Dockerfile
+    container_name: response-json-php-lib
+    volumes:
+      - ./:/var/www/html
+    command: tail -f /dev/null
