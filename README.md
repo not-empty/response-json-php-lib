@@ -12,6 +12,8 @@ PHP library to create a response json pattern to API's
 
 ### Installation
 
+[Release 8.0.0](https://github.com/not-empty/response-json-php-lib/releases/tag/8.0.0) Requires [PHP](https://php.net) 8.4
+
 [Release 7.0.0](https://github.com/not-empty/response-json-php-lib/releases/tag/7.0.0) Requires [PHP](https://php.net) 8.3
 
 [Release 6.0.0](https://github.com/not-empty/response-json-php-lib/releases/tag/6.0.0) Requires [PHP](https://php.net) 8.2
@@ -63,12 +65,12 @@ var_dump($response);
 if you want an environment to run or test it, you can build and install dependences like this
 
 ```sh
-docker build --build-arg PHP_VERSION=8.3-rc-cli -t not-empty/response-json-php-lib:php83 -f contrib/Dockerfile .
+docker build --build-arg PHP_VERSION=8.4-cli -t not-empty/response-json-php-lib:php84 -f contrib/Dockerfile .
 ```
 
 Access the container
 ```sh
-docker run -v ${PWD}/:/var/www/html -it not-empty/response-json-php-lib:php83 bash
+docker run --name response-json-php-lib -v ${PWD}/:/var/www/html -it not-empty/response-json-php-lib:php84 bash
 ```
 
 Verify if all dependencies is installed
@@ -94,12 +96,12 @@ To ensure that the entire project is fine:
 First you need to building a correct environment to install all dependences
 
 ```sh
-docker build --build-arg PHP_VERSION=8.3-rc-cli -t not-empty/response-json-php-lib:php83 -f contrib/Dockerfile .
+docker build --build-arg PHP_VERSION=8.4-cli -t not-empty/response-json-php-lib:php84 -f contrib/Dockerfile .
 ```
 
 Access the container
 ```sh
-docker run -v ${PWD}/:/var/www/html -it not-empty/response-json-php-lib:php83 bash
+docker run --name response-json-php-lib -v ${PWD}/:/var/www/html -it not-empty/response-json-php-lib:php84 bash
 ```
 
 Install all dependences
